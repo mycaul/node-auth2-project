@@ -1,0 +1,30 @@
+{
+  "name": "auth2-project",
+  "version": "1.0.0",
+  "description": "## Topics",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mycaul/node-auth2-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mycaul/node-auth2-project/issues"
+  },
+  "homepage": "https://github.com/mycaul/node-auth2-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-session-knex": "^1.7.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.5",
+    "nodemon": "^2.0.4",
+    "sqlite3": "^5.0.0"
+  }
+}
